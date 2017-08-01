@@ -9,7 +9,19 @@ namespace RegEx
     public class Matcher
     {
         public static bool Matches(string input, string pattern) {
-            return input.Contains(pattern);
+            int cursor = 0;
+
+            foreach(var character in pattern) {
+                if(input.ElementAt(cursor) == character || character == '.' ) {
+
+                    cursor++;
+                }
+                else {
+                        return false;
+                }
+            }
+
+            return true;
         }
     }
 }

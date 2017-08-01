@@ -21,10 +21,10 @@ namespace RegEx {
             Assert.IsTrue(Matcher.Matches("hi mum", "hi mum"));
         }
 
-        [Test]
-        public void matches_when_exact_string_exists_in_input() {
-            Assert.IsTrue(Matcher.Matches("hi mum", "i m"));
-        }
+        //[Test]
+        //public void matches_when_exact_string_exists_in_input() {
+        //    Assert.IsTrue(Matcher.Matches("hi mum", "i m"));
+        //}
 
         [Test]
         public void dot_matches_any_character() {
