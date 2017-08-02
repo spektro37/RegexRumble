@@ -12,3 +12,7 @@
 | {n} | Previous character exactly n times | x{3}yz | xxxyz | xyz |
 | [xyz] | One of the characters in the list | [abc]99 | b99 | d99 |
 | ^ | Start of string | ^abc | abc123 | 123abc |
+| $ | End of string | abc$ | 123abc | abc123 |
+
+
+Note: Normally the match can occur anywhere in the string.
