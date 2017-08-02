@@ -1,4 +1,4 @@
-#Regex Quick Reference
+# Regex Quick Reference
 
 | Element | Description | Example Pattern | Matching String | Non-matching String |
 |---|---|---|---|---|
