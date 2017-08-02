@@ -1,13 +1,5 @@
 # RegexRumble
 
-Basic patterns:
-
-    c    matches any literal character c
-    .    matches any single character
-    *    matches zero or more occurrences of the previous character
-    ^    matches the beginning of the input string
-    $    matches the end of the input string
-
 Useful links:
 
 [Regex Cheat Sheet](http://www.rexegg.com/regex-quickstart.html)  
